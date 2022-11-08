@@ -12,8 +12,9 @@ The collection of notebooks is a *living document* and subject to change.
 
 ## Table of Contents
 
-*  [Data Loading](python/data_loading.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2Fdata_loading.ipynb)
-
+*  [Data Loading](python/0_data_loading.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2F0_data_loading.ipynb)
+*  [Data Loading](python/1_data_preparation.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2F1_data_preparation.ipynb)
+*  [Data Loading](python/2_prediction_event_binary.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2F2_prediction_event_binary.ipynb)
 
 ## Installation \& Usage
 
