@@ -1,0 +1,19 @@
+name: Binder
+on: [push]
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: checkout files in repo
+      uses: actions/checkout@master
+
+    - name: update jupyter dependencies with repo2docker
+      uses: jupyterhub/repo2docker-action@master
+      with:
+        DOCKER_USERNAME: ${{ github.actor }}
+        DOCKER_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+        BINDER_CACHE: true
+        DOCKER_REGISTRY: "ghcr.io"
+        IMAGE_NAME: "fmannhardt/starter-predictive-process-monitoring"
