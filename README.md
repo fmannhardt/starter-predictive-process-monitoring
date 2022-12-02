@@ -20,7 +20,7 @@ The collection of notebooks is a *living document* and subject to change.
 
 ### Cloud notebooks via MyBinder
 
-Click on the `launch binder` links for either the R or the Python notebook. You may also use the Google Colab service by clicking on the Google Colab links, however, you may need to prepare the Google Colab environment to have the respective packages installed (see standalone instructions).
+Click on the `launch binder` links for either the R or the Python notebook. You could also  use the [Google Colab service](https://colab.research.google.com/); however, you may need to prepare the Google Colab environment to have the respective packages installed (see standalone instructions).
 
 ### Local notebooks
 
