@@ -8,6 +8,9 @@ The notebooks in this repository are part of the assignment in the course Advanc
 
 refer to the Installations \& Usage section below for usage instructions.
 
+You may also refer to the PM4Py documentation on Machine Learning for further options:
+https://pm4py.fit.fraunhofer.de/static/assets/api/2.7.8/api.html#machine-learning-pm4py-ml
+
 The collection of notebooks is a *living document* and subject to change.
 
 ## Table of Contents
@@ -64,7 +67,3 @@ Make sure to install GraphViz for the visualization. On Windows with Chocolately
 choco install graphviz
 ```
 Consult the [PM4Py documentation](https://pm4py.fit.fraunhofer.de/install) for further details for other environments.
-
-**R** 🚧
-
-The R version of this starter package is under construction.
