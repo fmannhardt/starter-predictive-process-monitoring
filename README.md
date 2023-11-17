@@ -8,7 +8,7 @@ The notebooks in this repository are part of the assignment in the course Advanc
 
 refer to the Installations \& Usage section below for usage instructions.
 
-You may also refer to the PM4Py documentation on Machine Learning for further options:
+You may also refer to the PM4Py documentation on Machine Learning for further options or an alternative to this implementation:
 https://pm4py.fit.fraunhofer.de/static/assets/api/2.7.8/api.html#machine-learning-pm4py-ml
 
 The collection of notebooks is a *living document* and subject to change.
