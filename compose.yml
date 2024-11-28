@@ -1,0 +1,11 @@
+services:
+  jupyter:
+    image: fmannhardt/starter-predictive-process-monitoring
+    build: .
+    environment:
+      - JUPYTER_TOKEN=processmining
+    ports:
+      - "8888:8888"
+    command: sh -c "jupyter lab --ip 0.0.0.0 --no-browser"
+    volumes:
+      - ./python:/home/rstudio/python

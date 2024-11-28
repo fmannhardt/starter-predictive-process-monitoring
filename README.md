@@ -27,32 +27,15 @@ Click on the `launch binder` links for either the R or the Python notebook. You 
 
 ### Local notebooks
 
-#### Docker
+#### Docker Compose
 
-Build a Docker image with the provided Dockerfile:
-
-```
-docker build -t fmannhardt/starter-predictive-process-monitoring .
-```
-
-And start the Docker container running Jupyter on [localhost:8888](http://localhost:8888?token=processmining):
+Build and run a Docker image with Compose:
 
 ```
-docker run --rm -ti -e JUPYTER_TOKEN=processmining -p 8888:8888 fmannhardt/starter-predictive-process-monitoring
-```
-
-or use the Jupyter Lab interface:
-
-```
-docker run --rm -ti -e JUPYTER_TOKEN=processmining -p 8888:8888 fmannhardt/starter-predictive-process-monitoring sh -c "jupyter lab --ip 0.0.0.0 --no-browser"
+docker compose up -d
 ```
 
 #### Standalone
-
-You should be able to run the Jupyter notebooks directly in a Jupyter environment using:
-```
-jupyter lab
-```
 
 Please make sure to have installed the following requirements:
 
@@ -62,8 +45,12 @@ Please make sure to have installed the following requirements:
 pip install -r requirements.txt
 ```
 
-Make sure to install GraphViz for the visualization. On Windows with Chocolately this should work:
+Make sure to install GraphViz for the visualization as per PM4Py documentation https://processintelligence.solutions/static/api/2.7.11/install.html
+
+You should be able to run the Jupyter notebooks directly in a Jupyter environment using:
 ```
-choco install graphviz
+jupyter lab
 ```
-Consult the [PM4Py documentation](https://pm4py.fit.fraunhofer.de/install) for further details for other environments.
+
+
+
