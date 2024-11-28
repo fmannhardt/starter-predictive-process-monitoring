@@ -1,5 +1,4 @@
-# we use the old PM4Py API that was considerably changed in 2.3.0
-pm4py @ git+https://github.com/fmannhardt/pm4py-source@2.2.31-legacy
+pm4py==2.7.12.3
 numpy 
 pandas 
 networkx 
